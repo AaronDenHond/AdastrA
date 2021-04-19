@@ -1,0 +1,27 @@
+body{
+background-color: #111111;
+font-family: 'Rajdhani', sans-serif;
+}
+
+/* internet told me to set one of the 2 (w or h) to auto and set a value for the other one. Thoughts? had to change due to height f-ing up */
+
+
+
+.spancolor{
+    color:rgba(194, 176, 228, 0.897);
+    font-weight: 700;
+}
+    
+.PageTitleFacilities{
+
+    color:rgba(185, 218, 224, 0.897);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+    
+    
+}
+
+
