@@ -1,0 +1,74 @@
+body {
+    background-image: url("https://external-preview.redd.it/pe00dmrZBe-DCa1zpv8aZVmrqO6qMjxBqV2cM_CwN38.png?auto=webp&s=05899e51860b1494415e1c95428f1f584d83d954");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    min-height: 100vh;
+}
+div{
+    font-family: 'Rajdhani', sans-serif;
+    color: #dceaff;
+}
+h1{
+    letter-spacing: 5px;
+    color: #dceaff;
+    font-variant: small-caps;
+    font-size: 40px;
+}
+.card{
+    background-color: #0c0c0c;
+}
+.card-header{
+    background-color: #0c0c0c;
+}
+.card-body{
+    background-color: #0c0c0c;
+}
+.btn{
+   letter-spacing: 2px;
+    font-variant: small-caps;
+}
+h4{
+    letter-spacing: 2px;
+    font-variant: small-caps;
+}
+li {
+    letter-spacing: 1px;
+}
+.navbar-custom {
+    background-color: #0D1521;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #F8F9F9;
+}
+
+.navbar-custom .navbar-brand {
+    padding: 0;
+}
+
+.nav-link {
+    font-size: 1.15rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.navbar-nav .nav-item:not(:last-child) {
+    border-right: 1px solid rgb(46 57 67);
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav .nav-item:not(:last-child) {
+        border-right: none;
+    }
+}
