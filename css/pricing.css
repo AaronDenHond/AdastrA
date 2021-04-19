@@ -41,3 +41,10 @@ h2 {
     font-variant: small-caps;
     font-size: 40px;
 }
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.returnlink{
+    color: white;
+}
