@@ -166,8 +166,9 @@ body {
 
 .team .member .pic {
         overflow: hidden;
-        width: 180px;
+        width: 85px;
         border-radius: 50%;
+
     }
 
 .team .member .pic img {
@@ -187,6 +188,7 @@ body {
         margin-bottom: 5px;
         font-size: 1.25rem;
         color: #354144;
+        padding-top: 20px;
     }
 
 .team .member span {
