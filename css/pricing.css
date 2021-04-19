@@ -1,0 +1,43 @@
+body {
+    background-image: url("https://images.hdqwalls.com/download/1/nebula-stars-planet-galaxy-15k-5g-7680x4320.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    min-height: 100vh;
+}
+div{
+    font-family: 'Rajdhani', sans-serif;
+    color: #dceaff;
+}
+h1{
+    letter-spacing: 5px;
+    color: #dceaff;
+    font-variant: small-caps;
+    font-size: 40px;
+}
+.card{
+    background-color: #111111;
+}
+.card-header{
+    background-color: #111111;
+}
+.card-body{
+    background-color: #111111;
+}
+.btn{
+    letter-spacing: 2px;
+    font-variant: small-caps;
+}
+h4{
+    letter-spacing: 2px;
+    font-variant: small-caps;
+}
+li {
+    letter-spacing: 1px;
+}
+h2 {
+    letter-spacing: 5px;
+    color: #dceaff;
+    font-variant: small-caps;
+    font-size: 40px;
+}
