@@ -70,6 +70,69 @@ body {
 --------------------------------------------------------------*/
 
 <<<<<<< HEAD
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to bottom, rgba(13, 21, 33, 0.5), rgba(13, 21, 33, 1));
+}
+
+.cover {
+    font-size: 8rem;
+    color: #dceaff;
+    letter-spacing: 1.5rem;
+    padding-left: 1.5rem;
+    line-height: 8rem;
+}
+
+.carousel-caption {
+    color: #dddddd;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.lead {
+    color: #dddddd;
+}
+
+.carousel-caption {
+    bottom: initial;
+}
+
+.item {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+@media screen and (max-width: 600px) {
+    .cover {
+        font-size: 1rem;
+        line-height: normal;
+    }
+
+    .lead {
+        font-size: 0.875rem;
+        line-height: normal;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 769px) {
+    .cover {
+        font-size: 1.125rem;
+        line-height: normal;
+    }
+=======
+<<<<<<< HEAD
 /* .carousel-caption {
     display: flex;
     flex-direction: column;
@@ -83,7 +146,25 @@ body {
 =======
 
 >>>>>>> ab496334147ad5485bf13527af99c9e7a822a1c2
+>>>>>>> 6d1ab77023821b28bf6c1c4421f7d95d45a3a779
 
+    .lead {
+        font-size: 1rem;
+        line-height: normal;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1240px) {
+    .cover {
+        font-size: 1.25rem;
+        line-height: normal;
+    }
+
+    .lead {
+        font-size: 1.125rem;
+        line-height: normal;
+    }
+}
 /*--------------------------------------------------------------
 # END CAROUSEL
 --------------------------------------------------------------*/
