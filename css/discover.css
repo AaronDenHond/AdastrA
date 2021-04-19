@@ -76,8 +76,10 @@ body {
 
 }
 
-.d-block img {
-    background: linear-gradient(to bottom, rgba(13, 21, 33, 0.5), rgba(13, 21, 33, 1));
+.img {
+    background-image:
+            linear-gradient(to bottom, rgba(13, 21, 33, 0.5), rgba(13, 21, 33, 1));
+
 }
 
 /*--------------------------------------------------------------
