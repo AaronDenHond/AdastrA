@@ -69,18 +69,7 @@ body {
 # CAROUSEL
 --------------------------------------------------------------*/
 
-.carousel-caption {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 
-}
-
-.img {
-    background-image:
-            linear-gradient(to bottom, rgba(13, 21, 33, 0.5), rgba(13, 21, 33, 1));
-
-}
 
 /*--------------------------------------------------------------
 # END CAROUSEL
