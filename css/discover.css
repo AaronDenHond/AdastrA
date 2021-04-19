@@ -69,6 +69,7 @@ body {
 # CAROUSEL
 --------------------------------------------------------------*/
 
+<<<<<<< HEAD
 .carousel-item {
     position: relative;
 }
@@ -130,6 +131,22 @@ body {
         font-size: 1.125rem;
         line-height: normal;
     }
+=======
+<<<<<<< HEAD
+/* .carousel-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.d-block img {
+    background: linear-gradient(to bottom, rgba(13, 21, 33, 0.5), rgba(13, 21, 33, 1));
+} */
+=======
+
+>>>>>>> ab496334147ad5485bf13527af99c9e7a822a1c2
+>>>>>>> 6d1ab77023821b28bf6c1c4421f7d95d45a3a779
 
     .lead {
         font-size: 1rem;
