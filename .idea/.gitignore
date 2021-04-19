@@ -2,7 +2,15 @@
 /shelf/
 /workspace.xml
 # Datasource local storage ignored files
+<<<<<<< HEAD
+/../../../../../../../:\Users\andor\git\first-project-adastra\AdastrA\.idea/dataSources/
+=======
+<<<<<<< HEAD
+/../../../../../../../:\Users\Valentina C\Desktop\BeCode projects\AdastrA\.idea/dataSources/
+=======
 /../../../../../../../:\Users\Aaron den Hond\Desktop\BecodeProjects\AdastrA\.idea/dataSources/
+>>>>>>> 416869c5f6e9a2ac002e4db6d77be4630219e934
+>>>>>>> eb62a30f169a921f215daa0939049e19806dfda0
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
