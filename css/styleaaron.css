@@ -1,34 +1,94 @@
-body{
-background-color: #111111;
-font-family: 'Rajdhani', sans-serif;
-height: auto;
-width: 100%;
-color: #fff;
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500&display=swap');
+
+body {
+    background-color: #111111;
+    height: auto;
+    width: 100%;
+    font-family: 'Rajdhani', sans-serif;
+    color: #F8F9F9;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 /* internet told me to set one of the 2 (w or h) to auto and set a value for the other one. Thoughts? had to change due to height f-ing up */
 
-
-
-.spancolor{
-    color:rgba(194, 176, 228, 0.897);
+.spancolor {
+    color: rgba(194, 176, 228, 0.897);
     font-weight: 700;
 }
-    
-.PageTitleFacilities{
 
-    color:rgba(185, 218, 224, 0.897);
+.PageTitleFacilities {
+
+    color: rgba(185, 218, 224, 0.897);
     text-align: center;
     margin-top: 50px;
     margin-bottom: 10px;
     font-weight: bold;
-    
-    
-    
 }
+
+/* BEGIN NAVBAR */    
+
+.navbar-custom {
+    background-color: #0D1521;
+  }
+  
+  .navbar-custom .navbar-brand,
+  .navbar-custom .navbar-text {
+      color: #F8F9F9;
+  }
+  
+  .navbar-custom .navbar-brand {
+    padding: 0;
+  }
+  
+  .nav-link {
+    color: #dceaff!important;
+    font-size: 1.15rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .nav-link:hover {
+    color: #fff!important;
+  }
+  
+  
+  .navbar-nav .nav-item:not(:last-child) {
+    border-right: 1px solid rgb(46 57 67);
+  }
+  
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+      outline: none;
+      box-shadow: none;
+  }
+  
+  /* END NAVBAR */
+
+  /* LOGO NAVBAR  */
+
+.logo {
+    width: 35px;
+  }
+  
+  .logo-fill {
+    fill: #dceaff;
+  }
+  
+  /* END LOGO NAVBAR  */
+
+/* REMOVE THE BORDER ON THE NAV ON SMALL SCREENS
+ */
+  @media (max-width: 768px) {
+    .navbar-nav .nav-item:not(:last-child) {
+      border-right: none;
+    }
+  }
 
 footer {
 
-   color:rgba(255,255,255,.55); 
+    color: #fff;
 }
-

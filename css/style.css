@@ -45,24 +45,22 @@ html {
 .background--two {
   background-image: 
   linear-gradient(to bottom, rgba(13, 21, 33, 0.5), rgba(13, 21, 33, 1)),
-  url('../img/background-2.jpeg');
+  url('../img/background-2.jpg');
 
 }
 
 .background--three{
   background-image: 
   linear-gradient(to bottom, rgba(13, 21, 33, 0.5), rgba(13, 21, 33, 1)),
-  url('../img/background-3.jpeg');
+  url('../img/background-3.jpg');
 
 }
 
-.background--four {
+.background--contact {
   background-image: 
   linear-gradient(to bottom, rgba(13, 21, 33, 0.5), rgba(13, 21, 33, 1)),
-  url('../img/background-4.jpeg');
+  url('../img/background-4.jpg');
 }
-
-
 
 .title {
   position: absolute;
@@ -113,6 +111,7 @@ html {
 
   .cover {
     font-size: 5rem;
+    color: #dceaff;
     letter-spacing: 1.5rem;
     padding-left: 1.5rem;
     line-height: 5rem;
@@ -120,6 +119,7 @@ html {
     
     .lead {
     font-size: 1.50rem;
+    color: #dceaff;
     letter-spacing: 0.3rem;
     text-transform: uppercase;
     }
@@ -198,6 +198,61 @@ html {
 }
 
 /* END NAVBAR  */
+
+/* CONTACT FORM */
+
+.form-wrapper {
+  max-width: 600px;
+  padding: 30px;
+  border: 0.5px solid rgba(220, 234, 255, 0.5);
+  border-radius: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+input {
+  background-color: #dceaff;
+  color: #111111;
+  border-radius: 10px;
+  border: 0px;
+  padding: 12px 20px;
+}
+
+textarea {
+  background-color: #dceaff;
+  color: #111111;
+  border-radius: 10px;
+  border: 0px;
+  padding: 12px 20px;
+}
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+  font-weight: 500;
+  background-color: #dceaff;
+  color: #111111;
+  border: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type=button]:hover,
+input[type=submit]:hover,
+input[type=reset] :hover {
+  font-weight: 500;
+  background-color: white;
+  transition: 1s;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+/* END CONTACT FORM */
 
 /* RESPONSIVENESS */
 
