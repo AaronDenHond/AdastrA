@@ -195,6 +195,20 @@ html {
 
 /* END NAVBAR */
 
+/* LOGO NAVBAR  */
+
+.logo {
+  width: 35px;
+}
+
+.logo-fill {
+  fill: #dceaff;
+}
+
+/* END NAVBAR  */
+
+/* CONTACT FORM */
+
 .form-wrapper {
   max-width: 600px;
   padding: 30px;
@@ -206,7 +220,6 @@ input,
 textarea {
   width: 100%;
 }
-
 
 input {
   background-color: #dceaff;
@@ -247,17 +260,7 @@ textarea:focus, input:focus{
   outline: none;
 }
 
-/* LOGO NAVBAR  */
-
-.logo {
-  width: 35px;
-}
-
-.logo-fill {
-  fill: #dceaff;
-}
-
-/* END NAVBAR  */
+/* END CONTACT FORM */
 
 /* RESPONSIVENESS */
 
