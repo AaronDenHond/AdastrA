@@ -18,61 +18,66 @@
   <title>AdastrA Homepage</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-<link rel="stylesheet" href="css/styleaaron.css">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/styleaaron.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/157920ca39.js" crossorigin="anonymous"></script>
 
-<body class="text-light">
-
-  <header>
-    <nav class="navbar navbar-custom navbar-expand-lg navbar-dark fixed-bottom">
-      <div class="container-fluid text-center">
+<body>
+<!--navbar-->
+<header>
+  <nav class="navbar navbar-custom navbar-expand-lg navbar-dark fixed-bottom">
+    <div class="container-fluid">
         <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target=".dual-collapse2">
-          <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navbar-collapse collapse w-100 order-md-0 dual-collapse2">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="discover.html">DISCOVER</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pricing.html">PRICING</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="facilities.html">FACILITIES</a>
-            </li>
-
-          </ul>
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="discover.html">DISCOVER</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="facilities.html">FACILITIES</a>
+              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pricing.html">PRICING</a>
+                </li>
+            </ul>
         </div>
         <a href="index.html" class="navbar-brand d-none d-lg-block me-auto" aria-label="ad astra logo">
 
-          <svg class="logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 231.1 160.4"
-            enable-background="new 0 0 231.1 160.4" xml:space="preserve">
-            <g>
-              <path class="logo-fill" fill="#959595" d="M228.6,0h-12.5c-1.8,0-3.1,1.2-3.7,3.5l-11.7,36.4h-60.3L128.7,3.5C128.2,1.2,127,0,125.2,0h-12.7
-      c-2.2,0-2.9,1.2-2.2,3.5l46.6,153.4c0.7,2.3,2.2,3.5,4.7,3.5h17.9c2.5,0,4.1-1.2,4.7-3.5L230.8,3.5C231.5,1.2,230.8,0,228.6,0z
-      M171,141.7h-1l-25.7-86.3h52.3L171,141.7z" />
-              <path class="logo-fill" fill="#959595" d="M74.2,3.5C73.6,1.2,72,0,69.5,0H51.6c-2.5,0-4.1,1.2-4.7,3.5L0.2,156.9c-0.7,2.3,0.1,3.5,2.2,3.5h12.5
-      c1.8,0,3.1-1.2,3.7-3.5l11.7-36.4h60.3l11.7,36.4c0.5,2.3,1.7,3.5,3.5,3.5h12.7c2.2,0,2.9-1.2,2.2-3.5L74.2,3.5z M34.4,105L60,18.7
-      h1L86.7,105H34.4z" />
-            </g>
-          </svg>
+            <svg class="logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 231.1 160.4" enable-background="new 0 0 231.1 160.4" xml:space="preserve">
+                <g>
+                    <path class="logo-fill" fill="#959595" d="M228.6,0h-12.5c-1.8,0-3.1,1.2-3.7,3.5l-11.7,36.4h-60.3L128.7,3.5C128.2,1.2,127,0,125.2,0h-12.7
+    c-2.2,0-2.9,1.2-2.2,3.5l46.6,153.4c0.7,2.3,2.2,3.5,4.7,3.5h17.9c2.5,0,4.1-1.2,4.7-3.5L230.8,3.5C231.5,1.2,230.8,0,228.6,0z
+    M171,141.7h-1l-25.7-86.3h52.3L171,141.7z" />
+                    <path class="logo-fill" fill="#959595" d="M74.2,3.5C73.6,1.2,72,0,69.5,0H51.6c-2.5,0-4.1,1.2-4.7,3.5L0.2,156.9c-0.7,2.3,0.1,3.5,2.2,3.5h12.5
+    c1.8,0,3.1-1.2,3.7-3.5l11.7-36.4h60.3l11.7,36.4c0.5,2.3,1.7,3.5,3.5,3.5h12.7c2.2,0,2.9-1.2,2.2-3.5L74.2,3.5z M34.4,105L60,18.7
+    h1L86.7,105H34.4z" />
+                </g>
+            </svg>
         </a>
         <div class="navbar-collapse collapse w-100 dual-collapse2">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">CONTACT</a>
-            </li>
-          </ul>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav sm-icons mr-0">
+                <li class="nav-item mx-auto"><a class="nav-link" href="https://www.facebook.com/voyagerstation/"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="nav-item mx-auto"><a class="nav-link" href="https://twitter.com/hashtag/voyagerstation"><i class="fab fa-instagram"></i></a></li>
+                <li class="nav-item mx-auto"><a class="nav-link" href="https://www.instagram.com/voyager.station/"><i class="fab fa-twitter"></i></a></li>
+            </ul>
         </div>
-      </div>
-    </nav>
+    </div>
+</nav>
+</header>
+    <!--end navbar-->
   </header>
-
+   
   <div class="container-fluid">
     <!--row for page title-->
     <div class="row">
@@ -88,14 +93,14 @@
 
 
     <!--row with 2 columns,basic structure of the page-->
-    <div class="row py-3 mt-2 center-block text-center">
+    <div class="row py-3 mt-3 center-block text-center">
       <div class="col-lg-5">
         <h2 class="heading pt-1 pb-5"><span class="text-info fw-bold">Sports in Space</span></h2>
-        <p class="lead">Enjoy the <span class="spancolor">thrill</span> of zero gravity exercise!</p>
-        <p class="lead">Try out tennis, volleyball, football and many more in our state of the art facilities, with
+        <p>Enjoy the <span class="spancolor">thrill</span> of zero gravity exercise!</p>
+        <p>Try out tennis, volleyball, football and many more in our state of the art facilities, with
           something for everyone. <span class="spancolor">Swim in outer space </span> with our groundbreaking aquatic
           technology.</p>
-        <p class="lead">Surpass the laws of earthly physics in our licensed <span class="spancolor">zero
+        <p>Surpass the laws of earthly physics in our licensed <span class="spancolor">variable
             gravity workout spaces.</span></p>
 
       </div>
@@ -116,13 +121,13 @@
     <div class="row mt-3 center-block text-center">
       <div class="col-lg-5 order-2">
         <h2 class="heading py-5"><span class="text-info fw-bold">Fine dining on another level</span></h2>
-        <p class="lead">Dining like you've never experienced before. </p>
-        <p class="lead">Savor your
+        <p>Dining like you've never experienced before.</p>
+        <p>Savor your
           taste buds with the finest foods not
           only found around the world,
           <span class="spancolor">but in the entire galaxy.</span>
         </p>
-        <p class="lead">Enjoy a <span class="spancolor ">breathtaking view</span> beyond
+        <p>Enjoy a <span class="spancolor">breathtaking view</span> beyond
           your wildest imagination from the comfort of your
           seat via our patented floor to ceiling windows.</p>
       </div>
@@ -135,13 +140,13 @@
     <!--row with 2 columns,basic structure of the page-->
     <div class="row py-3 mt-3 center-block text-center">
       <div class="col-lg-5">
-        <h2 class="heading pt-1 pb-5"><span class="text-info fw-bold">Journey Beyond</span></h2>
-        <p class="lead">For decades <span class="spancolor">space exploration</span> was only available to a
+        <h2 class="heading pt-3 pb-5"><span class="text-info fw-bold">Journey Beyond</span></h2>
+        <p>For decades <span class="spancolor">space exploration</span> was only available to a
           select few.</p>
-        <p class="lead">Through the marvel of
+        <p>Through the marvel of
           technological innovation we can now
           offer anyone to venture into the unknown.</p>
-        <p class="lead"><span class="spancolor">Journey through uncharted
+        <p><span class="spancolor">Journey through uncharted
             territory</span> with our supervised space walks and even trips to the moon.
           The experience of a lifetime.</p>
       </div>
@@ -155,13 +160,13 @@
 
     <!--row with 2 columns,basic structure of the page-->
 
-    <div class="row mt-3 center-block text-center">
+    <div class="row mb-5 center-block text-center">
       <div class="col-lg-5 order-2">
         <h2 class="heading py-5"><span class="text-info fw-bold">AI Assistance</span></h2>
-        <p class="lead"> Our top of the line <span class="spancolor">robotic assistants</span> will make sure
+        <p> Our top of the line <span class="spancolor">robotic assistants</span> will make sure
           to satisfy your every need.</p>
 
-        <p class="lead">Enjoy the luxury of our on demand servants providing you with their services on your every whim.
+        <p>Enjoy the luxury of our on demand servants providing you with their services on your every whim.
         </p>
       </div>
       <div class="col-lg-7 order-1">
@@ -173,24 +178,13 @@
 
 
   </div>
-  <footer class="footer mt-auto py-3 center-block text-center d inline-block bg-dark">
-    <div class="container">
-      <a class="btn btn-primary" style="background-color: #3b5998;" href="https://www.facebook.com/voyagerstation/"
-        role="button"><span class="fab fa-facebook-f"></span></a>
-      <a class="btn btn-primary" style="background-color: #55acee;" href="https://twitter.com/hashtag/voyagerstation"
-        role="button"><span class="fab fa-twitter"></span></a>
-      <a class="btn btn-primary" style="background-color: #ac2bac;" href="https://www.instagram.com/voyager.station/"
-        role="button"><i class="fab fa-instagram"></i></a>
-
-    </div>
-  </footer>
-
-
+  
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
     integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
-  </script>
+    </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
     integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
-  </script>
+    </script>
 
 </body>
+</html>
