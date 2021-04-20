@@ -62,7 +62,7 @@ body {
 }
 
 .navbar-nav .nav-item .socials:not(:last-child) {
-    border-right: px solid rgb(46 57 67);
+    border-right: 1px solid rgb(46 57 67);
 }
 
 .sm-icons {
