@@ -111,6 +111,7 @@ html {
 }
 
 .cover {
+  padding: 10px;
   font-size: 5rem;
   color: #dceaff;
   letter-spacing: 1.5rem;
@@ -119,6 +120,7 @@ html {
 }
 
 .lead {
+  padding: 10px;
   font-size: 1.50rem;
   color: #dceaff;
   letter-spacing: 0.3rem;
@@ -211,6 +213,10 @@ html {
 
 /* CONTACT FORM */
 
+.contact-padding {
+  padding: 10px;
+}
+
 .form-wrapper {
   max-width: 600px;
   padding: 30px;
@@ -280,11 +286,28 @@ text-align: left;
     display: inline-block;
   }
 
+  .cover {
+    padding: 20px;
+    font-size: 4rem;
+    color: #dceaff;
+    letter-spacing: 1rem;
+    padding-left: 1.5rem;
+    line-height: 5rem;
+  }
+  
+  .lead {
+    padding: 20px;
+    font-size: 1.1rem;
+    color: #dceaff;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+  }
+
 }
 
 @media (max-width: 998px) and (orientation: portrait) {
   .season-desc {
-    padding: 1.5rem 20px;
+    padding: 20px;
     font-size: 1rem;
     height: unset;
     min-height: 100vh;
@@ -297,6 +320,7 @@ text-align: left;
   }
 
   .season-about {
+    font-size: 2rem;
     margin-top: 20px;
   }
 }
