@@ -14,7 +14,7 @@ html {
 }
 
 
-/* BEGIN PARALLAX */    
+/* BEGIN PARALLAX */
 
 .parallax-wrapper {
   perspective: 1px;
@@ -43,23 +43,23 @@ html {
 }
 
 .background--two {
-  background-image: 
-  linear-gradient(to bottom, rgba(13, 21, 33, 0.5), rgba(13, 21, 33, 1)),
-  url('../img/background-2.jpg');
+  background-image:
+    linear-gradient(to bottom, rgba(13, 21, 33, 0.5), rgba(13, 21, 33, 1)),
+    url('../img/background-2.jpg');
 
 }
 
-.background--three{
-  background-image: 
-  linear-gradient(to bottom, rgba(13, 21, 33, 0.5), rgba(13, 21, 33, 1)),
-  url('../img/background-3.jpg');
+.background--three {
+  background-image:
+    linear-gradient(to bottom, rgba(13, 21, 33, 0.5), rgba(13, 21, 33, 1)),
+    url('../img/background-3.jpg');
 
 }
 
 .background--contact {
-  background-image: 
-  linear-gradient(to bottom, rgba(13, 21, 33, 0.5), rgba(13, 21, 33, 1)),
-  url('../img/background-4.jpg');
+  background-image:
+    linear-gradient(to bottom, rgba(13, 21, 33, 0.5), rgba(13, 21, 33, 1)),
+    url('../img/background-4.jpg');
 }
 
 .title {
@@ -88,64 +88,65 @@ html {
   padding: 3rem;
   height: 100vh;
   margin: 0;
-  display: flex;}
+  display: flex;
+}
 
-  .desc-wrapper {
-    margin: auto;
-    box-sizing: border-box;
-  }
+.desc-wrapper {
+  margin: auto;
+  box-sizing: border-box;
+}
 
-  .season--title {
-    text-align: center;
-    font-size: 4rem;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    margin: 20px 0;
-  }
+.season--title {
+  text-align: center;
+  font-size: 4rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
 
-  .season--about {
-    margin-top: 30px;
-    padding: 0;
-    max-width: 80rem;
-  }
+.season--about {
+  margin-top: 30px;
+  padding: 0;
+  max-width: 80rem;
+}
 
-  .cover {
-    font-size: 5rem;
-    color: #dceaff;
-    letter-spacing: 1.5rem;
-    padding-left: 1.5rem;
-    line-height: 5rem;
-    }
-    
-    .lead {
-    font-size: 1.50rem;
-    color: #dceaff;
-    letter-spacing: 0.3rem;
-    text-transform: uppercase;
-    }
+.cover {
+  font-size: 5rem;
+  color: #dceaff;
+  letter-spacing: 1.5rem;
+  padding-left: 1.5rem;
+  line-height: 5rem;
+}
+
+.lead {
+  font-size: 1.50rem;
+  color: #dceaff;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
 
 
 /* END PARALLAX PARALLAX */
 
-/* CTA BUTTON */    
- 
-      .btn-cta {
-      margin-top: 30px;
-      background-color: #dceaff;
-      font-weight: 500;
-      letter-spacing: 0.1rem;
-    }
-    
-    .btn-cta:hover {
-      color: #111111;
-      background-color: #fff;
-      transition: 1s;
-    }
+/* CTA BUTTON */
 
-/* END CTA BUTTON */    
+.btn-cta {
+  margin-top: 30px;
+  background-color: #dceaff;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
 
-    
-/* BEGIN NAVBAR */    
+.btn-cta:hover {
+  color: #111111;
+  background-color: #fff;
+  transition: 1s;
+}
+
+/* END CTA BUTTON */
+
+
+/* BEGIN NAVBAR */
 
 .navbar-custom {
   background-color: #0D1521;
@@ -153,7 +154,7 @@ html {
 
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-    color: #F8F9F9;
+  color: #F8F9F9;
 }
 
 .navbar-custom .navbar-brand {
@@ -161,7 +162,7 @@ html {
 }
 
 .nav-link {
-  color: #dceaff!important;
+  color: #dceaff !important;
   font-size: 1.15rem;
   margin-right: 2rem;
   margin-left: 2rem;
@@ -170,7 +171,7 @@ html {
 }
 
 .nav-link:hover {
-  color: #fff!important;
+  color: #fff !important;
 }
 
 
@@ -181,8 +182,8 @@ html {
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
+  outline: none;
+  box-shadow: none;
 }
 
 .navbar-nav .nav-item .socials:not(:last-child) {
@@ -257,7 +258,8 @@ input[type=reset] :hover {
   transition: 1s;
 }
 
-textarea:focus, input:focus{
+textarea:focus,
+input:focus {
   outline: none;
 }
 
@@ -272,7 +274,7 @@ textarea:focus, input:focus{
 
   .navbar-nav li {
     display: inline-block;
-}
+  }
 
 }
 
@@ -284,14 +286,13 @@ textarea:focus, input:focus{
     min-height: 100vh;
   }
 
-    .season-title {
-      font-size: 2.5rem;
-      margin: 20px 0;
-      letter-spacing: unset;
-     }
-    .season-about {
-      margin-top: 20px;
-     }
- }
+  .season-title {
+    font-size: 2.5rem;
+    margin: 20px 0;
+    letter-spacing: unset;
+  }
 
-
+  .season-about {
+    margin-top: 20px;
+  }
+}
