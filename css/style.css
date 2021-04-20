@@ -263,6 +263,10 @@ input:focus {
   outline: none;
 }
 
+.contact-info {
+text-align: left;
+}
+
 /* END CONTACT FORM */
 
 /* RESPONSIVENESS */

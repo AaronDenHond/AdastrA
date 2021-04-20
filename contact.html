@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <script src="https://kit.fontawesome.com/157920ca39.js" crossorigin="anonymous"></script>
+
 <body>
 
   <!-- NAVIGATION  -->
@@ -57,19 +58,22 @@
         </a>
         <div class="navbar-collapse collapse w-100 dual-collapse2">
           <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                  <a class="nav-link" href="contact.html">CONTACT</a>
-              </li>
-            </ul>
-            <ul class="navbar-nav sm-icons mr-0">
-              <li class="nav-item mx-auto"><a class="nav-link" href="https://www.facebook.com/voyagerstation/"><i class="fab fa-facebook-f"></i></a></li>
-              <li class="nav-item mx-auto"><a class="nav-link" href="https://twitter.com/hashtag/voyagerstation"><i class="fab fa-instagram"></i></a></li>
-              <li class="nav-item mx-auto"><a class="nav-link" href="https://www.instagram.com/voyager.station/"><i class="fab fa-twitter"></i></a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
           </ul>
+          <ul class="navbar-nav sm-icons mr-0">
+            <li class="nav-item mx-auto"><a class="nav-link" href="https://www.facebook.com/voyagerstation/"><i
+                  class="fab fa-facebook-f"></i></a></li>
+            <li class="nav-item mx-auto"><a class="nav-link" href="https://twitter.com/hashtag/voyagerstation"><i
+                  class="fab fa-instagram"></i></a></li>
+            <li class="nav-item mx-auto"><a class="nav-link" href="https://www.instagram.com/voyager.station/"><i
+                  class="fab fa-twitter"></i></a></li>
+          </ul>
+        </div>
       </div>
-  </div>
-</nav>
-</header>
+    </nav>
+  </header>
 
   <!-- END NAVIGATION  -->
 
@@ -78,29 +82,49 @@
   <div class="parallax-wrapper">
     <div class="background background--contact">
       <div class="desc-wrapper">
-          <h1 class="cover">CONTACT</h1>
-          <p class="lead">PLEASE TAKE A MOMENT TO GET IN TOUCH, WE WILL GET BACK TO YOU SHORTLY.<p>
+        <h1 class="cover">CONTACT</h1>
+        <p class="lead">PLEASE TAKE A MOMENT TO GET IN TOUCH, WE WILL GET BACK TO YOU SHORTLY.<p>
       </div>
     </div>
     <section class="season-desc">
       <div class="desc-wrapper">
-        <div class="form-wrapper">
-          <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mbjqlknq" target="_blank" method="post">
-            <fieldset id="fs-frm-inputs">
-              <label for="full-name">Full Name</label>
-              <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-              <label for="email-address">Email Address</label>
-              <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-              <label for="message">Message</label>
-              <textarea rows="5" name="message" id="message" placeholder="Include a small message" required=""></textarea>
-              <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-            </fieldset>
-            <input type="submit" value="Submit">
-          </form>
+
+        <container>
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 contact-info">
+              <h2>Ad Adstra</h2>
+              <p>Rocket Road<br>
+              CA 90250 HAWTHORNE, CALIFORNIA, United States<br>
+              +1 310-363-6000<br>
+              <a href="mailto:contact@adastra.com">contact@adastra.com</a>
+
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+              <div class="form-wrapper">
+                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mbjqlknq"
+                  target="_blank" method="post">
+                  <fieldset id="fs-frm-inputs">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                    <label for="email-address">Email Address</label>
+                    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                    <label for="message">Message</label>
+                    <textarea rows="5" name="message" id="message" placeholder="Include a small message"
+                      required=""></textarea>
+                    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                  </fieldset>
+                  <label>
+                    <input type="checkbox" checked="checked" name="subscribe"> I would like to subscribe to the AdastrA
+                    newsletter.
+                  </label>
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+            </div>
           </div>
+        </container>
       </div>
     </section>
-
 
     <!-- END BODY  -->
 
