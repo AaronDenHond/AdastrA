@@ -7,10 +7,9 @@ body {
     font-family: 'Rajdhani', sans-serif;
     color: #F8F9F9;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.5em;
 }
 
-/* internet told me to set one of the 2 (w or h) to auto and set a value for the other one. Thoughts? had to change due to height f-ing up */
 
 .spancolor {
     color: rgba(194, 176, 228, 0.897);
@@ -27,45 +26,51 @@ body {
 }
 
 /* BEGIN NAVBAR */    
-
 .navbar-custom {
-    background-color: #0D1521;
-  }
-  
-  .navbar-custom .navbar-brand,
-  .navbar-custom .navbar-text {
-      color: #F8F9F9;
-  }
-  
-  .navbar-custom .navbar-brand {
-    padding: 0;
-  }
-  
-  .nav-link {
-    color: #dceaff!important;
-    font-size: 1.15rem;
-    margin-right: 2rem;
-    margin-left: 2rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
-  
-  .nav-link:hover {
-    color: #fff!important;
-  }
-  
-  
-  .navbar-nav .nav-item:not(:last-child) {
-    border-right: 1px solid rgb(46 57 67);
-  }
-  
-  .navbar-toggler:focus,
-  .navbar-toggler:active,
-  .navbar-toggler-icon:focus {
-      outline: none;
-      box-shadow: none;
-  }
-  
+  background-color: #0D1521;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #F8F9F9;
+}
+
+.navbar-custom .navbar-brand {
+  padding: 0;
+}
+
+.nav-link {
+  color: #dceaff!important;
+  font-size: 1.15rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.nav-link:hover {
+  color: #fff!important;
+}
+
+
+.navbar-nav .nav-item:not(:last-child) {
+  border-right: 1px solid rgb(46 57 67);
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-nav .nav-item .socials:not(:last-child) {
+  border-right: px solid rgb(46 57 67);
+}
+
+.sm-icons {
+  flex-direction: row;
+}
   /* END NAVBAR */
 
   /* LOGO NAVBAR  */
